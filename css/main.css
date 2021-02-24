@@ -51,7 +51,29 @@ h5 {
     background-color: #e52e2e;
     color: #fff; }
   .btn-large {
-    padding: 15px 40px; }
+    padding: 15px 40px; 
+    background-color: #194571;
+    
+  }
+
+  .btn-large:hover{
+    background-color: #194571;
+    opacity: 0.6;
+
+  }
+
+
+@media screen and (min-width: 601px) {
+  .AboutUs h2{
+    font-size: 40px;
+  }
+
+  .AboutUs p{
+    font-size:16px;
+  }
+}
+
+
 
 /* ==========================================================================
 	General 
@@ -182,7 +204,7 @@ ul li {
     -webkit-transition-property: -webkit-transform;
     transition-property: transform; }
   .nav-toggle:before {
-    background-color: #e84545;
+    background-color: #194571;
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
@@ -192,7 +214,7 @@ ul li {
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s; }
   .nav-toggle:after {
-    background-color: #e84545;
+    background-color: #194571;
     -moz-transform: scale(0);
     -ms-transform: scale(0);
     -webkit-transform: scale(0);
