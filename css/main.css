@@ -52,26 +52,19 @@ h5 {
     color: #fff; }
   .btn-large {
     padding: 15px 40px; 
-    background-color: #194571;
+    background-color: #323477;
     
   }
 
   .btn-large:hover{
-    background-color: #194571;
+    background-color: #323477;
     opacity: 0.6;
 
   }
 
 
-@media screen and (min-width: 601px) {
-  .AboutUs h2{
-    font-size: 40px;
-  }
 
-  .AboutUs p{
-    font-size:16px;
-  }
-}
+
 
 
 
@@ -114,12 +107,13 @@ ul li {
 	Header
 ========================================================================== */
 #header {
+  background-color: #eee;
   position: fixed;
   width: 100%;
   z-index: 999;
   border-color:  }
   #header a{
-    color: white;
+    color: black;
   }
   #header .header-content {
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);
@@ -153,6 +147,9 @@ ul li {
   -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s; }
 
+.navigation.open a{
+  color: white;
+}
 .navigation {
   float: right; }
   .navigation li {

@@ -48,7 +48,18 @@
     font-size: 26px; }
 
   .flex-control-nav {
-    bottom: 20px; } }
+    bottom: 20px; } 
+
+    #header a{
+    color: white !important;
+
+  }
+
+  #header .fixed a{
+    color: white !important;
+  } 
+
+  }
 @media screen and (max-width: 768px) {
   .banner-text {
     padding-top: 30%; }
@@ -64,7 +75,18 @@
     width: 100%; }
 
   .footer .footer-col {
-    margin-bottom: 50px; } }
+    margin-bottom: 50px; } 
+
+   #header a{
+    color: white !important;
+
+  }
+
+  #header .fixed a{
+    color: white !important;
+  }  
+
+  }
 @media screen and (max-width: 640px) {
   .banner-text {
     padding-top: 35%; } }
@@ -72,7 +94,12 @@
   .banner-text {
     padding-top: 45%; }
     .banner-text h1 {
-      font-size: 32px; } }
+      font-size: 32px; } 
+
+      #btnsaber{
+        right: 0px;
+      }
+    }
 @media screen and (max-width: 320px) {
   .banner-text {
     padding-top: 55%; }
@@ -80,4 +107,63 @@
   .testimonials blockquote {
     padding: 20px 5% 0; }
   .testimonials p {
-    font-size: 26px; } }
+    font-size: 26px; } 
+
+ #header .header-content {
+      padding: 25px;
+
+    }
+
+    #btnsaber{
+      right: 0px;
+    }
+
+  }
+
+   
+
+    @media screen and (max-width: 600px) {
+  .AboutUs h2{
+    font-size: 30px;
+    width: 250px;
+    margin-bottom: 50px;
+    position: relative;
+    right: 80px;
+  }
+
+  .AboutUs p{
+    font-size:14px;
+    width: 280px;
+    line-height: 21px;
+    position: relative;
+    right: 93px;
+    text-align: justify;
+    top: -25px;
+  }
+
+  .AboutUs{
+    margin-top: 15px;
+    padding-top: 40px;
+    
+  }
+
+
+  #header a{
+    color: white !important;
+
+  }
+
+  #header .fixed a{
+    color: white !important;
+  }
+
+
+.btn-large {
+    padding: 15px 40px;
+    background-color: #323477;
+    position: relative;
+    right: 58px;
+}
+
+  
+}
