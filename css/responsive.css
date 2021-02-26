@@ -100,7 +100,7 @@
         right: 0px;
       }
     }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 340px) {
   .banner-text {
     padding-top: 55%; }
 
@@ -122,6 +122,17 @@
 
 
 @media screen and (min-width: 374px) and (max-width: 375px){
+
+#header .header-content {
+      padding: 20px;
+
+    }
+
+
+   #btnsaber{
+      right: 1px !important;
+    }  
+
 .AboutUs p {
     font-size: 14px;
     width: 280px;
@@ -180,7 +191,11 @@
     right: 12px !important;
 }
 
+#header .header-content {
+   
+    padding: 25px 0 !important;
 
+  }
 }
 
    
