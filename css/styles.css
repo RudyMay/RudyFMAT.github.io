@@ -1,3 +1,7 @@
+body{
+  position: relative;
+}
+
 @media only screen and (min-width: 601px){
     .logoNav, nav .brand-logo{
         width: auto;
@@ -5,8 +9,27 @@
     }
 }
 
-.bg-white{
-  background-color: #fff;;
+.navbar-shrink{
+  overflow: hidden;
+  transition: 0.5s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+
+.banner{
+  width: 100%;
+  height: auto;
+  background-color: #1A4275; /* fallback color */
+  /*background-position: center;*/
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  transform: scale(1.2);
 }
 
 .feature-content img{
