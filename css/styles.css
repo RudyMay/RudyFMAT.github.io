@@ -1,5 +1,9 @@
 body{
   position: relative;
+  /*background-image: url("../images/edwin.jfif");
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;*/
 }
 
 @media only screen and (min-width: 601px){
