@@ -1,9 +1,28 @@
 body{
   position: relative;
+  color: #1A4275;
   /*background-image: url("../images/edwin.jfif");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;*/
+}
+
+.title{
+  color: #071C48;
+}
+
+footer{
+  background-color: #1A4275;
+}
+
+.button-primary{
+  background-color: #BA8B2F;
+  color: #fff;
+}
+
+.button-primary:hover{
+  background-color: #966A15;
+  color: #fff;
 }
 
 @media only screen and (min-width: 601px){
@@ -53,7 +72,7 @@ body{
 
 .nav-link:hover{
   color: #fff !important;
-  background-color: #1a4175ce;
+  background-color: #1A4275ce;
 }
 
 .nav-link.active{
@@ -121,7 +140,7 @@ body{
   position: relative;
   visibility: hidden; }
   .work .overlay {
-    background: #194175;
+    background: #1A4275;
     height: 100%;
     left: 0;
     opacity: 0;
