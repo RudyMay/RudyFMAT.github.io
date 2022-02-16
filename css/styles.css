@@ -7,6 +7,21 @@ body{
   background-size: cover;*/
 }
 
+.blue-dark{
+  background-color: #042044;
+  color: white;
+  fill: white;
+}
+
+.icon-svg{
+  max-width: 16px;
+  height: auto;
+}
+
+.icon-svg-color{
+  fill: white;
+}
+
 .title{
   color: #071C48;
 }
