@@ -1,25 +1,51 @@
 body{
   position: relative;
-  color: #1A4275;
+  color: #042044;
   /*background-image: url("../images/edwin.jfif");
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;*/
 }
 
+section div{
+  height: 100vh;
+}
+
+.img-responsive{
+  width: 100%;
+  height: 100vh;
+  opacity: .5;
+}
+
+#banner-img{
+  width: auto;
+  background: #fff;  /* fallback for old browsers */
+  /*background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgb(255, 255, 255)), url("../images/motherboard.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
 .blue-dark{
   background-color: #042044;
   color: white;
-  fill: white;
 }
 
 .icon-svg{
+  width: 100%;
   max-width: 16px;
   height: auto;
 }
 
 .icon-svg-color{
   fill: white;
+}
+
+.logoNav, nav .brand-logo{
+  width: auto;
+  height: 56px;
+  max-height: 56px;
 }
 
 .title{
@@ -41,10 +67,6 @@ footer{
 }
 
 @media only screen and (min-width: 601px){
-    .logoNav, nav .brand-logo{
-        width: auto;
-        max-height: 56px;
-    }
 }
 
 @media (min-width: 992px){
@@ -56,7 +78,6 @@ footer{
   transition: 0.5s;
   position: fixed;
   width: 100%;
-  top: 8px;
   z-index: 999;
 }
 
@@ -80,23 +101,22 @@ footer{
 }
 
 .nav-link{
-  color: #1A4275 !important;
+  color: #042044 !important;
   padding-left: .5rem !important;
   padding-right: .5rem !important;
 }
 
-.nav-link:hover{
-  color: #fff !important;
-  background-color: #1A4275ce;
+.nav-link:hover, .nav-link.active{
+  color: #258970 !important;
+  text-decoration: underline;
 }
 
-.nav-link.active{
+/*.nav-link.active{
   color: #fff !important;
   background-color: #1A4275;
   font-weight: bold;
   text-decoration-line: underline;
-  ;
-}
+}*/
 
 .feature-content img{
   max-width: 48px;
