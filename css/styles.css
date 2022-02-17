@@ -8,6 +8,7 @@ body{
 }
 
 section{
+  position: relative;
   min-height: 100vh;
   height: auto;
 }
@@ -20,7 +21,6 @@ section{
 
 #banner-img{
   width: auto;
-  height: 100vh;
   background: #fff;  /* fallback for old browsers */
   /*background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgb(255, 255, 255)), url("../images/motherboard.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -44,6 +44,13 @@ section{
   fill: white;
 }
 
+.icon-svg-card{
+  width: 100%;
+  max-width: 64px;
+  width: auto;
+  height: auto;
+}
+
 .logoNav, nav .brand-logo{
   width: auto;
   height: 56px;
@@ -60,17 +67,27 @@ section{
 }
 
 footer{
-  background-color: #1A4275;
+  background-color: #042044;
 }
 
 .button-primary{
-  background-color: #BA8B2F;
+  background-color: #258970;
   color: #fff;
 }
 
 .button-primary:hover{
-  background-color: #966A15;
+  background-color: #042044;
   color: #fff;
+}
+
+.halfColor{
+  position: absolute;
+    height: 50%;
+    background: aquamarine;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
 }
 
 @media only screen and (min-width: 601px){
@@ -282,9 +299,4 @@ footer{
 .map-responsive iframe{
     height: 400px;
     width:100%;
-}
-
-/****/
-.h-100{
-  height: 100%;
 }
