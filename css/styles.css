@@ -23,10 +23,10 @@ section{
   width: auto;
   background: #fff;  /* fallback for old browsers */
   /*background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8));  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, rgba(255, 255, 255, 0.4), rgb(255, 255, 255)), url("../images/motherboard.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgb(255, 255, 255)), url("../images/motherboard.jpg"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: left center;
 }
 
 .blue-dark{
