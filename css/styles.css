@@ -300,3 +300,20 @@ footer{
     height: 400px;
     width:100%;
 }
+
+
+
+
+
+
+.card{
+  transition: transform .5s;
+}
+
+.card:hover{
+  background-color:#496D9C ;
+  color: white;
+  transform: scale(1.1); 
+  
+}
+
