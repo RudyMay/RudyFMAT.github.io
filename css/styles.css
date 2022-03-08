@@ -1,10 +1,6 @@
 body{
   position: relative;
   color: #042044;
-  /*background-image: url("../images/edwin.jfif");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover;*/
 }
 
 section{
@@ -301,11 +297,6 @@ footer{
     width:100%;
 }
 
-
-
-
-
-
 .card{
   transition: transform .5s;
 }
@@ -314,6 +305,5 @@ footer{
   background-color:#496D9C ;
   color: white;
   transform: scale(1.1); 
-  
 }
 
